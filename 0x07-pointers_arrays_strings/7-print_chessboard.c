@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_chessboard - Entry point
- * @a: array
- * Return: Always 0 (Success)
+ * print_chessboard - Main funtion which is the Entry point
+ * @a: array parameter
+ * Return: 0
  */
 void print_chessboard(char (*a)[8])
 {
-	int i;
 	int j;
+	int i;
 
 	for (i = 0; i < 8; i++)
 	{
