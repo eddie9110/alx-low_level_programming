@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strcmp - compare string values
- * @s1: input value
- * @s2: input value
+ * _strcmp - main ftn to compare string values
+ * @s1: first parameter
+ * @s2: second parameter
  *
  * Return: s1[i] - s2[i]
  */
