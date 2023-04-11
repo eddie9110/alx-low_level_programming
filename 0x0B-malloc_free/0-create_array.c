@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * create_array – ftn will create an array of size and assign char c
- * @size: parameter size will assign size
- * @c: parameter char to assign a character
- * Return: str  if successful and null if ftn fails
+ *create_array – ftn will create an array of size and assign char c
+ *@size: parameter size will assign size
+ *@c: parameter char to assign a character
+ *Return: str  if successful and null if ftn fails
  */
 
 char *create_array(unsigned int size, char c)
