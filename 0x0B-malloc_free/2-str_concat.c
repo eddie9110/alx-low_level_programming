@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * str_concat - ftn that gets ends of input and adds them  
+ * str_concat - ftn that gets ends of input and adds them
  * @s1: first concat input
  * @s2: second concat input
  * Return: az if successful
@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 		a++;
 	while (s2[b] != '\0')
 		b++;
-	az= malloc(sizeof(char) * (a + b + 1));
+	az = malloc(sizeof(char) * (a + b + 1));
 
 	if (az == NULL)
 		return (NULL);
