@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-
 /**
- * _strdup – this ftn duplicates to new memory space location
+ * _strdup - _strdup ftn duplicates to new memory space location
  * @str: parameter in the form of char
- * Return: 0 for success
+ * Return: z
  */
 
 char *_strdup(char *str)
