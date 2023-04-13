@@ -8,14 +8,14 @@
  * Return: a pointer uy
  */
 
-void * _calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *uy;
 	unsigned int ke;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	
+
 	uy = malloc(nmemb * size);
 
 	if (uy == NULL)

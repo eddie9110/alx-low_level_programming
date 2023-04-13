@@ -3,15 +3,16 @@
 
 /**
  * string_nconcat - ftn to connect two strings
- * @s2: parameter represents string to be concatenated to s1
- * @S2: parameter represents string to be concatenated to s2
- *Return: z
+ * @s1: first string to be concatenated
+ * @S2: second string to be concatenated
+ * @n: first bytes of string s2
+ * Return: z
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *i;
-	unsigned int a = 0, b = 0; 
+	unsigned int a = 0, b = 0;
 	unsigned int y, z = 0;
 
 	while (s1 && s1[y])
