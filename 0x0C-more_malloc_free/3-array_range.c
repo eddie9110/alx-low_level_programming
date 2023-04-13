@@ -11,20 +11,21 @@
 int *array_range(int min, int max)
 {
 	int *ke;
-	int size;
+	int cap;
+	int x;
 
 	if (min > max)
 		return (NULL);
 
-	size = max - min + 1;
+	cap = max - min + 1;
 
-	ke = malloc(sizeof(int) * size);
+	ke = malloc(sizeof(int) * cap);
 
 
 	if (ke == NULL)
 		return (NULL);
 
-	for (int x = 0; min <= max; x++)
+	for (x = 0; min <= max; x++)
 		ke[x] = min++;
 
 	return (ke);
