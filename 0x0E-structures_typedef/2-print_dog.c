@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * print_dog – outputs structure dog
- * @d:  pointer parameter to print_dog
+ * print_dog - ftn outputs structure dog
+ * @d: pointer parameter to ftn print_dog
  */
 
 void print_dog(struct dog *d)
