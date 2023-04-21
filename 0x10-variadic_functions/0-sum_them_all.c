@@ -10,9 +10,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int kd = 0;
-	unsigned int plusr = 0;
-
+	unsigned int kd, plusr = 0;
 	va_list arg;
 
 	va_start(arg, n);
@@ -20,11 +18,11 @@ int sum_them_all(const unsigned int n, ...)
 	if (n == 0)
 		return (0);
 
+
 	for (kd = 0 ; kd < n ; kd++)
 		plusr += va_arg(arg, int);
 
 	va_end(arg);
 
 	return (plusr);
-
 }
