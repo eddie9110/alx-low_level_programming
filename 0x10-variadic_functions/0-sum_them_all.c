@@ -20,7 +20,11 @@ int sum_them_all(const unsigned int n, ...)
 
 
 	for (kd = 0 ; kd < n ; kd++)
-		plusr += va_arg(arg, int);
+	{
+		int k = va_arg(arg, int);
+
+		plusr = plusr + k;
+	}
 
 	va_end(arg);
 
