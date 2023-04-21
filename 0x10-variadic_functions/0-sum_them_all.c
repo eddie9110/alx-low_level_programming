@@ -10,10 +10,10 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int kd, plusr = 0;
-	va_list arg;
+	unsigned int kd, sum = 0;
+	va_list argu;
 
-	va_start(arg, n);
+	va_start(argu, n);
 
 	if (n == 0)
 		return (0);
@@ -21,12 +21,10 @@ int sum_them_all(const unsigned int n, ...)
 
 	for (kd = 0 ; kd < n ; kd++)
 	{
-		int k = va_arg(arg, int);
-
-		plusr = plusr + k;
+		sum += va_arg(argu, int);
 	}
 
-	va_end(arg);
+	va_end(argu);
 
-	return (plusr);
+	return (sum);
 }
