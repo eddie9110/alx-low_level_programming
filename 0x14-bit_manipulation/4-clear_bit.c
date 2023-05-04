@@ -3,6 +3,7 @@
 /**
  * clear_bit - ftn that converts bit to zero
  * @n: pointer to no. of interest
+ * @index: no. of bit of interest.
  * Return: 1 or -1 if failed
  */
 
