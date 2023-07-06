@@ -9,12 +9,12 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int okl = 0;
-	int na; 
+	int na;
 
 
 	for (na = 0 ; b[na] ; na++)
 	{
-		if ( b[na] < '0' || b[na] > '1')
+		if (b[na] < '0' || b[na] > '1')
 			return (0);
 		okl = (b[na] - '0') + okl * 2;
 	}
