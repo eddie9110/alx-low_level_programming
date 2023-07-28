@@ -2,8 +2,8 @@
 
 /**
  * set_bit - a function that sets the value of a bit to 1 at a given index
- * @n - number of interest
- * @index - the position of the number of interest
+ * @n: number of interest
+ * @index: the position of the number of interest
  * Return: 1 - success / -1 for failure
  */
 
