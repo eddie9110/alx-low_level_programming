@@ -7,7 +7,7 @@
 
 int get_endianness(void)
 {
-	int jx = 1,
+	int jx = 1;
 	int yh = 1;
 	int outp = 0;
 

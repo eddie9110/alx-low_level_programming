@@ -10,7 +10,7 @@
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	if (index >= 64)
-		return (-1); /*checks if index is greatr that or equal to 64 for error handling*/
+		return (-1); /*checks if index is >= 64 for error handling*/
 
 	*n = (~(1 << index) & *n);
 
