@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * add_dnodeint - a ftn to add a new node at the beginning of a dlistint_t list.
+ * add_dnodeint - a ftn to add a
+ * new node at the beginning of a dlistint_t list.
  * @head: head node
  * @n: data
  * Return: address of new element

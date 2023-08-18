@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * add_dnodeint_end - aftn that adds a new node at the end of a dlistint_t list.
+ * add_dnodeint_end - aftn that adds a new
+ * node at the end of a dlistint_t list.
  * @head: head node
  * @n: data
  * Return: address of new element or null
