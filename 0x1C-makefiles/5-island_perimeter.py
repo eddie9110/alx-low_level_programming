@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """this is the module for island_perimeter()"""
 
+
 def island_perimeter(grid):
     """ftn returns the perimeter of the island in grid"""
     perimeter = 0
