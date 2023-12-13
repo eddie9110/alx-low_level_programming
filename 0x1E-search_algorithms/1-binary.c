@@ -3,8 +3,7 @@
 /**
  * binary_search_ftn - binary_search_ftn
  * @array: array
- * @min: min
- * @max: max
+ * @size: size of array
  * @value: value
  * Return: index / -1
  */
