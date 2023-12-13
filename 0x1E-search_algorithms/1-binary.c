@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * binary_search_ftn - binary_search_ftn
+ * binary_search - binary_search_ftn
  * @array: array
  * @size: size of array
  * @value: value
